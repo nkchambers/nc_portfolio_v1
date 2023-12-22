@@ -60,6 +60,58 @@ export const Skills = () => {
                                     <img src={meter2} alt="80% meter"></img>
                                     <h5>Web Design</h5>
                                 </div>
+                                <div className="item">
+                                    <img src={meter3} alt="90% meter"></img>
+                                    <h5>Python</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter1} alt="95% meter"></img>
+                                    <h5>React.js</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter2} alt="80% meter"></img>
+                                    <h5>UI/UX Design</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter3} alt="90% meter"></img>
+                                    <h5>C#</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter1} alt="95% meter"></img>
+                                    <h5>Frontend Frameworks</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter2} alt="80% meter"></img>
+                                    <h5>MySQL Database</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter3} alt="90% meter"></img>
+                                    <h5>Mongo DB</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter1} alt="95% meter"></img>
+                                    <h5>Node.js</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter2} alt="80% meter"></img>
+                                    <h5>Flask</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter3} alt="90% meter"></img>
+                                    <h5>JavaScript</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter1} alt="95% meter"></img>
+                                    <h5>Software Development</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter2} alt="80% meter"></img>
+                                    <h5>ASP.NET</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter3} alt="90% meter"></img>
+                                    <h5>GitHub</h5>
+                                </div>
                             </Carousel>
                         </div>
                     </Col>

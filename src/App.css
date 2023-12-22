@@ -96,7 +96,7 @@ nav.navbar {
 }
 
 nav.navbar.scrolled {
-  padding: 0px 0;
+  padding: 6px 0;
   background-color: #121212;
 }
 
@@ -129,8 +129,8 @@ span.navbar-text {
 }
 
 .social-icon a {
-  width: 42px;
-  height: 42px;
+  width: 50px;
+  height: 50px;
   background: rgba(217, 217, 217, 0.1);
   display: inline-flex;
   border-radius: 50%;
@@ -256,6 +256,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
+}
+
+.ncLogo {
+  border-radius: 50%;
+  border: 2px solid #f9fdfc;
+  box-shadow: #f7fafa 0px 2px 4px 0px, rgb(245, 247, 246) 0px 2px 16px 0px;
 }
 
 /************ Banner CSS ************/

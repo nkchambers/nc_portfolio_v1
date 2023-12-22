@@ -18,13 +18,13 @@ export const Projects = () => {
             imgURL: "http://35.91.128.202//",
             gitHubURL: "https://github.com/nkchambers/cncauto_v2_deployment"
         },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            img: projImg2,
-            imgURL: "",
-            gitHubURL: ""
-        },
+        // {
+        //     title: "Business Startup",
+        //     description: "Design & Development",
+        //     img: projImg2,
+        //     imgURL: "",
+        //     gitHubURL: ""
+        // },
         // {
         //     title: "Business Startup",
         //     description: "Design & Development",
@@ -89,10 +89,10 @@ export const Projects = () => {
                                                 </Row>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="second">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                                                <p>E-Commerce Projects Coming Soon!</p>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="third">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                                                <p>Mobile App Projects Coming Soon!</p>
                                             </Tab.Pane>
                                         </Tab.Content>
                                     </Tab.Container>
