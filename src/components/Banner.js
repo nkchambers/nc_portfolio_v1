@@ -61,8 +61,15 @@ export const Banner = () => {
                             <div className={isVisable ? "animate_animated animate_fadeIn" : ""}>
                                 <span className="tagline">Welcome to my Portfolio</span>
                                 <h1>{ `Hi I'm Nick ` }<span className="wrap">{text}</span></h1>
-                                <p>I'm set out on a mission to help companies and organizations utilize technology to ther advantage. Whether that be to improve customer retention through better website user-experience or make a larger impact on those they serve with a resource mobile app, I'm to infinity and beyond up to the task!</p>
-                                <p>I'm a former catering lead gone full-stack developer.  In my 10+ years or working in food service I learned how to cater to individuals' needs with unwaivering attention to detail. As long as the project needs are within my skill set, I will approach my development in the same way and will provide that same level of service to my clients. I made the move in 2021 to go through a full-time coding bootcamp and learn how to become a full-stack developer. I graduated in 2022 and haven't looked back, continuing to learn new technologies and improve on those I learned in the bootcamp. In fact, this website is built using React, one of the technologies I learned in the bootcamp! </p>
+                                <p>
+                                    I'm set out on a mission to help companies and organizations utilize technology to ther advantage. 
+                                    Whether that be to improve customer retention through better website user-experience or make a larger impact on those they serve with a resource mobile app, I'm to infinity and beyond up to the task!</p>
+                                <p>
+                                    I'm a former catering lead gone full-stack developer.  In my 10+ years or working in food service I learned how to cater to individuals' needs with unwaivering attention to detail. 
+                                    As long as the project needs are within my skill set, I will approach my development in the same way and will provide that same level of service to my clients. 
+                                    I made the move in 2021 to go through a full-time coding bootcamp and learn how to become a full-stack developer. 
+                                    I graduated in 2022 and haven't looked back, continuing to learn new technologies and improve on those I learned in the bootcamp. In fact, this website is built using React, one of the technologies I learned in the bootcamp! 
+                                </p>
                                 <a href="#connect"><button>Let's connect<ArrowRightCircle size={25} /></button></a>
                             </div>}
                         </TrackVisibility>
