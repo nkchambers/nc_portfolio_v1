@@ -61,7 +61,8 @@ export const Banner = () => {
                             <div className={isVisable ? "animate_animated animate_fadeIn" : ""}>
                                 <span className="tagline">Welcome to my Portfolio</span>
                                 <h1>{ `Hi I'm Nick ` }<span className="wrap">{text}</span></h1>
-                                <p>ABOUT ME BIO Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p>I'm set out on a mission to help companies and organizations utilize technology to ther advantage. Whether that be to improve customer retention through better website user-experience or make a larger impact on those they serve with a resource mobile app, I'm to infinity and beyond up to the task!</p>
+                                <p>I'm a former catering lead gone full-stack developer.  In my 10+ years or working in food service I learned how to cater to every individual's needs with unwaivering attention to detail. I approach my development in the same way and will provide that same level of service to my clients, so long as the project needs are within my skill set. I made the move in 2021 to invest in myself and go through a full-time coding bootcamp to learn how to become a software developer. I graduated in 2022 and haven't looked back, continuing to learn new technologies and improve on those I learned in the bootcamp. In fact, this website is made with React, one of the technologies I learned in the bootcamp! </p>
                                 <a href="#connect"><button>Let's connect<ArrowRightCircle size={25} /></button></a>
                             </div>}
                         </TrackVisibility>

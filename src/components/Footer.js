@@ -11,9 +11,9 @@ export const Footer = () => {
         <footer className="footer">
             <Container>
                 <Row className="align-items-center">
-                    <MailChimpForm />
+                    {/* <MailChimpForm /> */}
                     <Col size={12} sm={6}>
-                        <a href="#home"><img src={NC_logo} style={{ width: "25%", height: "auto" }} alt="Logo" className='ncLogo' /></a>
+                        <a href="#home"><img src={NC_logo} style={{ width: "25%", height: "auto", marginTop: "30px" }} alt="Logo" className='ncLogo' /></a>
                     </Col>
                     <Col size={12} sm={6} className="text-center text-sm-end">
                         <div className="social-icon">

@@ -38,7 +38,7 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>ABOUT SKILLS Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p>Throughout my coding boodcamp I was exposed to varias technologies and learned how they worked together to create a full-stack web application. Since graduating and working on projects I've had the opportunity to expand that knowledge, gain new skills and improve on the core competencies I learned in the bootcamp.</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="95% meter"></img>
