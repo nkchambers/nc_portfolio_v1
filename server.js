@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(express.json(), express.urlencoded({ extended: true }));
 
 
-// app.use("/", router);
+app.use("/", router);
 
 app.get('/api', (req, res) => {
     res.json({ message: 'Hello from server!' })
