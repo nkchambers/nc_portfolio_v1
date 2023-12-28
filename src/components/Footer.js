@@ -13,15 +13,15 @@ export const Footer = () => {
                 <Row className="align-items-center">
                     {/* <MailChimpForm /> */}
                     <Col size={12} sm={6}>
-                        <a href="#home"><img src={NC_logo} style={{ width: "25%", height: "auto", marginTop: "30px" }} alt="Logo" className='ncLogo' /></a>
+                        <a href="#home"><img src={NC_logo} style={{ width: "20%", height: "auto", marginTop: "30px" }} alt="Logo" className='ncLogo' /></a>
                     </Col>
                     <Col size={12} sm={6} className="text-center text-sm-end">
-                        <div className="social-icon">
+                        {/* <div className="social-icon">
                             <a href="https://www.linkedin.com/in/nick-chambers-0a391241/"><img src={navIcon1} alt="Linkedln Icon" /></a>
                             <a href="https://www.facebook.com/nick.chambers.370"><img src={navIcon2} alt="Facebook Icon" /></a>
                             <a href="https://www.instagram.com/chambers9565/"><img src={navIcon3} alt="Instagram Icon" /></a>
-                        </div>
-                        <p>Copyright 2023. All Rights Reserved</p>
+                        </div> */}
+                        <p className="pt-5">Copyright 2023. All Rights Reserved</p>
                     </Col>
                 </Row>
             </Container>

@@ -59,8 +59,7 @@ export const Projects = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <h2>Projects</h2>
-                                    <p>I'm a passionate car enthusiast so after graduating I set out to create a car rental web application using the MERN stack. Since graduting I learned new frameworks, libraries, AWS EC2 configuration and have succussfully implemented these new technologies in my car rental app. Many more projects on the way!   </p>
+                                    <h2 className="p-3">Projects</h2>
                                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                             <Nav.Item>
@@ -89,10 +88,10 @@ export const Projects = () => {
                                                 </Row>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="second">
-                                                <p>E-Commerce Projects Coming Soon!</p>
+                                                <p></p>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="third">
-                                                <p>Mobile App Projects Coming Soon!</p>
+                                                <p></p>
                                             </Tab.Pane>
                                         </Tab.Content>
                                     </Tab.Container>
