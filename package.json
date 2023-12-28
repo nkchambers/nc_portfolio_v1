@@ -30,6 +30,10 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "engines" : {
+    "npm": "10.2.5",
+    "node": "20.9.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
